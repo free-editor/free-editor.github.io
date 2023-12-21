@@ -160,10 +160,11 @@
   <div class="container is-max-desktop">
     <div class="hero-body">
       <img src="./static/images/Top_teaser.png"/>
+    </div>
+    <div>
       <p>
         FreeEditor can synthesize novel edited views in a zero-shot manner without scene-specific re-training of the model. To edit a scene, we take only a single image as the starting view and edit it using a T2I diffusion model. Based on this starting view, we can render novel edited target views. 
       </p>
-      </h2>
     </div>
   </div>
 </section>
@@ -215,13 +216,15 @@
 <section class="hero is-light is-small">
   <div class="hero-body">
     <div class="container">
-          <img src="./static/images/Main_teaser.png"/> 
-          <p>
-            Overview of our proposed method. We train a generalized NeRF (G(.)) that takes a single edited starting view and M source
+          <img src="./static/images/Main_teaser.png"/>     
+    </div>
+    <div>
+    <p>
+     Overview of our proposed method. We train a generalized NeRF (G(.)) that takes a single edited starting view and M source
 views to render a novel target view. Here, ”Edited Target View” is not the input to the model rather will be rendered and works as the ground truth for the
 prediction of G(.). In G(.) we employ a special Edit Transformer that utilizes: cross-attention to produce style-informed source feature maps
 that will be aggregated through an Epipolar Transformer.
-          </p>
+    </p>
     </div>
   </div>
 </section>
