@@ -2,13 +2,15 @@
 
 This is the repository that contains the project page of FreeEditor Paper. 
 
-If you find Nerfies useful for your work please cite:
+If you find our paper useful for your work please cite:
 ```
-@article{park2021nerfies
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
+@misc{karim2023freeeditor,
+      title={Free-Editor: Zero-shot Text-driven 3D Scene Editing}, 
+      author={Nazmul Karim and Umar Khalid and Hasan Iqbal and Jing Hua and Chen Chen},
+      year={2023},
+      eprint={2312.13663},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
 }
 ```
 
