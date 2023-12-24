@@ -1,4 +1,4 @@
-# Nerfies
+# Free-Editor
 
 This is the repository that contains the project page of FreeEditor Paper. 
 
